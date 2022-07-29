@@ -25,6 +25,7 @@ section{
     flex-flow: column wrap;
     align-items: flex-start;
     justify-content: flex-start;
+    background:linear-gradient(var(--red)var(--pink)90deg);
     width: 450px;
     height: 350px;
 }
