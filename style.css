@@ -30,5 +30,5 @@ section{
     background:linear-gradient(var(--red)var(--pink)90deg);
     box-shadow: 2px 2px 8px var(--ombre);
     width: 450px;
-    height: 350px;
+    height: 250px;
 }
