@@ -5,10 +5,26 @@
     --pink:#EC4067;
     --flirt:#A01A7D;
     --russian:#311847;
+    --ombre:rgba(0,0,0.6);
 }
 body{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
     background-color: var(--weed);
 }
-header{}
-main{}
-footer{}
+main{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+section{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 450px;
+    height: 350px;
+}
