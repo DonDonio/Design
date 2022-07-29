@@ -1,6 +1,14 @@
 @import url(reset.css);
-
-body{}
+:root {
+    --weed:#E09F7D;
+    --red:#EF5D60;
+    --pink:#EC4067;
+    --flirt:#A01A7D;
+    --russian:#311847;
+}
+body{
+    background-color: var(--weed);
+}
 header{}
 main{}
 footer{}
